@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_order_example"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:paddingTop = "15dp"
+        android:paddingBottom= "20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="60dp"
+                android:background="@drawable/python" />
+
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PyREAD"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="PyREAD는 Python3 입문자가\nPython Code에 더욱 친숙해질 수 있도록\n눈으로 익힐 수 있는 학습 경험을 제공하는\n새로운 학습 애플리케이션입니다."/>
+
+        <ImageView
+            android:id = "@+id/mainAnim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize = "10sp"
+        android:textColor = "@color/gray"
+        android:text = "ⓒ Copyright 2018 - Teamwork"
+        android:paddingBottom="10dp"/>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+
+        app:bmb_buttonEnum="ham"
+        app:bmb_buttonPlaceEnum="buttonPlace_ham_3"
+        app:bmb_draggable="true"
+        app:bmb_highlightedColor="@android:color/holo_green_dark"
+        app:bmb_normalColor="@android:color/holo_green_light"
+        app:bmb_piecePlaceEnum="piecePlace_ham_3" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F8E400"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/splashlogo"
+        />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/titleLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize = "16sp"
+        android:textColor = "#35181F"
+        android:text = "티먹"
+        android:textStyle="bold"/>
+
+</LinearLayout>

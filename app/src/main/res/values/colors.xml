@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name = "yechanOrange">#FFC000</color>
+    <color name = "yechanDarkOrange">#FF6464</color>
+
+    <color name = "yechanLightGreen">#53EB17</color>
+    <color name = "yechanDarkGreen">#2ED7A1</color>
+
+    <color name = "yechanLightBlue">#00D2FF</color>
+    <color name = "yechanDarkBlue">#096498</color>
+
+</resources>
